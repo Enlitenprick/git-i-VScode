@@ -1,5 +1,6 @@
 
 //import java.util.Scanner;
+import src.methods.Methods;
 
 public class Main {
     public static void main( String[] args ){
@@ -180,7 +181,9 @@ public class Main {
             System.out.print(i + " ");
         }
     */
-        
+        Methods m = new Methods();
+        int sum = m.add(5, 10);
+        System.out.println("Summan är: " + sum);
         
     }
 }
